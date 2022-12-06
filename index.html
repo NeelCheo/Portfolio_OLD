@@ -7,54 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="css" href="./assets/css/style.css" />
-    <title>portfolio</title>
+    <title>Neel's Portfolio Website</title>
   </head>
 
   <body>
     <Header>
-      <h1></h1>
+      <h1>Neel's Portfolio</h1>
       <nav>
-        <button class="navigation"></button>
-        <button class="navigation"></button>
-        <button class="navigation"></button>
-        <button class="navigation"></button>
+        <button class="navigation">Home</button>
+        <button class="navigation">About Me</button>
+        <button class="navigation">Work</button>
+        <button class="navigation">Contact</button>
       </nav>
     </Header>
 
     <main>
       <section id="about-me">
-        <h2></h2>
-        <img id="portrait" src="" alt="">
-        <p></p>
+        <h2>About Me:</h2>
+        <img id="portrait" src="./assets/images/portrait.jpg" alt="portrait picture of me (neel)">
+        <p>My name is Neel Chakravartty. I graduated as an environmental engineer from University of Connecticut (UConn) 2022. I am undertaking coding bootcamp
+          through the same university to become a Full Stack programmer and broaden my horizons and as an alternative job oppertunity. On this website you should 
+          be able to find ways to contact me including previous projects I have worked on.
+        </p>
+        <ul>
+          <li>Email: neelcheo@gmail.com</li>
+          <li>Phone: 917-545-5866</li>
+          <li>LinkedIn: https://www.linkedin.com/in/neel-chak/</li>
+          <li>Github: https://github.com/NeelCheo</li>
+        </ul>
       </section>
 
       <section id="work">
-        <h2></h2>
+        <h2>Previous Works</h2>
 
         <button class="project" id="first">
-          <img src="./assets/images/sample_image" alt="place holder image">
+          <img src="./assets/images/sample.jpg" alt="place holder image">
+          <p>Project titel 1</p>
         </button>
 
         <button class="project">
-          <img src="./assets/images/sample_image" alt="place holder image">
+          <img src="./assets/images/sample.jpg" alt="place holder image">
+          <p>Project titel 2</p>
         </button>
 
         <button class ="project">
-          <img src="./assets/images/sample_image" alt="place holder image">
+          <img src="./assets/images/sample.jpg" alt="place holder image">
+          <p>Project titel 3</p>
         </button>
       </section>
 
       <section id="contact">
-        <!-- text input: name -->
-        <!-- text input: email -->
-        <!-- text input: phone-->
-        <!-- text input: message -->
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="First Last" />
+
+        <label for="e-mail">E-mail:</label>
+        <input id="e-mail" type="text" placeholder="name@mail.com" />
+        
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="text" placeholder="123-456-7890" />
+
+        <label for="comment">comment:</label>
+        <input id="comment" type="text" placeholder="write your comment here" />
+
         <button id="submit"></button>
       </section>
     </main>
 
     <footer>
-      <button id="top"></button>
+      <button id="top">top</button>
     </footer>
   </body>
 </html>
