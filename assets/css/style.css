@@ -26,7 +26,7 @@ h2{
 }
 
 p{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* HEADER CODE*/
@@ -84,3 +84,45 @@ header a{
   width: 800px;
 }
 /* WORK CODE */
+
+/* CONTACT CODE */
+#contact{
+  display:flex;
+  flex-direction: column;
+}
+
+#contact .info-div{
+  display:flex;
+  justify-content: space-around;
+  margin: 40px;
+  background-color: blueviolet;
+}
+
+#contact .form{
+  display:flex;
+  flex-direction: column;
+  font-size: 30px;
+  justify-content: start;
+}
+
+#contact .input{
+  display:flex;
+  align-items: center;
+  background-color:chartreuse ;
+}
+
+#contact .form #comment{  
+  height: 100px;
+  width: 40%;
+}
+/* CONTACT CODE */
+
+
+/* top button in footer */
+footer a{
+  position:fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color:red
+}
