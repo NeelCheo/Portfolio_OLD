@@ -5,6 +5,7 @@
 * {
   font-family: Arial,verdana, Helvetica, sans-serif;
   text-decoration: none;
+  color:black;
 }
 
 img{
@@ -12,7 +13,23 @@ img{
   height: 400px;
 }
 
-/* HEADER SECTION CSS CODE */
+section, header, footer{
+  display:block;
+  margin-bottom: 20px;
+  height: fit-content;
+}
+
+h2{
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+/* HEADER CODE*/
 header {
   display: flex;
   background-color: aqua;
@@ -31,4 +48,17 @@ header a{
   font-size: 20px;
   color:black;
 }
-/* HEADER SECTION CSS CODE */
+/* HEADER CODE*/
+
+
+/* ABOUT-ME CODE*/
+
+#about-me{
+  background-color: blueviolet;
+  display:flex;
+}
+
+#about-me .text-div{
+  margin: 0 40px;
+}
+/* ABOUT-ME CODE*/
