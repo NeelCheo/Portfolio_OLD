@@ -52,7 +52,6 @@ header a{
 
 
 /* ABOUT-ME CODE*/
-
 #about-me{
   background-color: blueviolet;
   display:flex;
@@ -62,3 +61,26 @@ header a{
   margin: 0 40px;
 }
 /* ABOUT-ME CODE*/
+
+/* WORK CODE */
+#work{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+.content{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.proj{
+  margin: 30px;
+  text-align: center;
+}
+
+.proj #first{
+  width: 800px;
+}
+/* WORK CODE */
