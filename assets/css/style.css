@@ -89,13 +89,13 @@ header a{
 #contact{
   display:flex;
   flex-direction: column;
+  background-color: blueviolet;
 }
 
 #contact .info-div{
   display:flex;
   justify-content: space-around;
   margin: 40px;
-  background-color: blueviolet;
 }
 
 #contact .form{
