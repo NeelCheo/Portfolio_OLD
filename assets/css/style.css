@@ -126,3 +126,9 @@ footer a{
   z-index: 99;
   background-color:red
 }
+
+@media screen and (max-width: 768px) {
+  .proj #first{
+    width: 350px;
+  }
+}
