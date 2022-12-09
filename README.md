@@ -6,8 +6,7 @@ boxes for the assignement
 (not optomized for small devices but works for small browser sizes)
 
 ## preview
-
-![image](https://user-images.githubusercontent.com/73446815/206595678-6ade9bcd-a73e-48ad-bdcd-3a9eeaeaf760.png)
+https://i.gyazo.com/f31534a4cd4ce90dc8b6f70128f9024f.mp4
 
 <video controls width="50%">
     <source src="./assets/images/preview.mp4">
